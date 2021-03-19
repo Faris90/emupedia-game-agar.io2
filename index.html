@@ -33,7 +33,7 @@
     	        if ($_GET["method"]) {
     	            method = $_GET["method"];
     	        } else {
-    	            method = "ws";
+    	            method = "wss";
     	        }
     	        connect(method + "://" + $_GET["ip"], true);
     	    } else {
