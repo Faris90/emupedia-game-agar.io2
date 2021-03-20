@@ -21,7 +21,7 @@
     	$(document).ready(function() {
     	    function getConnection() {
     	        var connectionfail = false;
-    	        var request = prompt("Enter server address:port (if ws doesnt work, use wss)", "ws://127.0.0.1:443");
+    	        var request = "wss://agar.emupedia.net:443/ws/"
     	        if (request != null) {
     	            connect(request, true);
     	        }
